@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 205.74) (xy 236.22 205.74)
+			(xy 233.68 200.66) (xy 236.22 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3722,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 208.28) (xy 236.22 208.28)
+			(xy 233.68 203.2) (xy 236.22 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4607,9 +4607,20 @@
 		)
 		(uuid "269726a9-6eb8-4154-969c-c426d4921714")
 	)
+	(text "Larger Buttons"
+		(exclude_from_sim no)
+		(at 54.102 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 21 1)
+			)
+		)
+		(uuid "3fe95cae-fc29-4a9c-a7c0-8fd1bcd4223a")
+	)
 	(text "I²C Device List\n\n| Name          | Addr | Alt  |\n|---------------|------|------|\n|Ambient Light  | 0x10 |   -  |\n|BMM350         | 0x14 | 0x15 |\n|Touch          | 0x24 |      |\n|Battery Charge | 0x3F |      |  \n|Gauge          | 0x55 |      |  \n|Heart Rate     | 0x57 |      |\n|6dof           | 0x68 | 0x69 |\n|Magnetic Sens. | 0x6A |      |\n|BLE + NFC      | prog.       |"
 		(exclude_from_sim no)
-		(at 254 279.4 0)
+		(at 253.746 279.4 0)
 		(effects
 			(font
 				(face "Cascadia Mono")
@@ -5135,7 +5146,7 @@
 	)
 	(global_label "QSMP_USB_DP"
 		(shape input)
-		(at 236.22 208.28 0)
+		(at 236.22 203.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5145,7 +5156,7 @@
 		)
 		(uuid "37d5080d-368c-4f15-8be7-3e51d2accb1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.6724 208.28 0)
+			(at 252.6724 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6696,7 @@
 	)
 	(global_label "QSMP_USB_DN"
 		(shape input)
-		(at 236.22 205.74 0)
+		(at 236.22 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6695,7 +6706,7 @@
 		)
 		(uuid "d8744d0c-0055-4b4b-a8b1-f835274e808d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.7329 205.74 0)
+			(at 252.7329 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 252.73 40.64 0)
 			(effects
 				(font
@@ -8720,7 +8731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 260.35 40.64 0)
 			(effects
 				(font
