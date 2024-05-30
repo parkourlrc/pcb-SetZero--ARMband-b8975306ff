@@ -2882,6 +2882,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 151.13) (xy 368.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0994ba2d-593b-4df7-a03a-c3ea57c842d1")
+	)
+	(wire
+		(pts
 			(xy 233.68 139.7) (xy 236.22 139.7)
 		)
 		(stroke
@@ -3129,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "356f5307-5187-4f73-acf0-ff10232e3971")
+	)
+	(wire
+		(pts
+			(xy 365.76 153.67) (xy 368.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357ed77f-81e8-4f88-a03a-eb4cb73cb3e2")
 	)
 	(wire
 		(pts
@@ -3502,16 +3522,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 151.13) (xy 368.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "720837f9-c6b3-4ccf-9429-e675071cd146")
-	)
-	(wire
-		(pts
 			(xy 81.28 267.97) (xy 83.82 267.97)
 		)
 		(stroke
@@ -3739,16 +3749,6 @@
 			(type default)
 		)
 		(uuid "921399d4-d224-427a-8bea-0acae1c0a98e")
-	)
-	(wire
-		(pts
-			(xy 365.76 153.67) (xy 368.3 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9234ae18-508c-4103-811a-b27c62894ece")
 	)
 	(wire
 		(pts
@@ -5667,6 +5667,28 @@
 			)
 		)
 	)
+	(global_label "QSMP_SDA"
+		(shape input)
+		(at 365.76 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71e35217-de5a-4f73-bb07-decfaba20f9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.0571 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TP_RST"
 		(shape input)
 		(at 363.22 227.33 180)
@@ -6606,28 +6628,6 @@
 			)
 		)
 	)
-	(global_label "QSMP_SDA"
-		(shape input)
-		(at 365.76 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4d026fd-c6a7-4525-ab2a-e34238f95500")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.0571 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "QSMP_SCL"
 		(shape input)
 		(at 363.22 219.71 180)
@@ -7026,7 +7026,7 @@
 	)
 	(global_label "QSMP_SCL"
 		(shape input)
-		(at 365.76 153.67 180)
+		(at 365.76 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7034,9 +7034,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f4cf330c-39e2-4d50-b74f-dad50edeadee")
+		(uuid "f3e3a777-729f-4862-8ac9-da019147223d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.1176 153.67 0)
+			(at 353.1176 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

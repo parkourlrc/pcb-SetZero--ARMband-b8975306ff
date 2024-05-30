@@ -2836,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MEM20750014001A"
+		(property "Footprint" "ARMband:MEM20750014001A"
 			(at 146.05 71.12 0)
 			(effects
 				(font

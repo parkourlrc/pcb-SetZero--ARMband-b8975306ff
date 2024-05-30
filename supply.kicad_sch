@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON50P200X200X80-9N"
+		(property "Footprint" "ARMband:SON50P200X200X80-9N"
 			(at 224.79 130.48 0)
 			(effects
 				(font
@@ -11293,7 +11293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SM03BSRSSTBLFSN"
+		(property "Footprint" "ARMband:SM03BSRSSTBLFSN"
 			(at 267.97 317.17 0)
 			(effects
 				(font
