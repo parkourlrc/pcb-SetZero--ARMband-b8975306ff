@@ -974,6 +974,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1078,31 +1198,13 @@
 		(uuid "080515a1-02ef-437b-9b84-fba8ccbc8053")
 	)
 	(junction
+		(at 325.12 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d8cf6cb-0c7a-4ac8-8562-1e27ae3bdd13")
+	)
+	(junction
 		(at 302.26 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30c62b8f-5e42-4fa2-b93b-bd41d1943d8e")
-	)
-	(junction
-		(at 186.69 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "363a619f-8284-41f7-a7b7-8a70b373bde4")
-	)
-	(junction
-		(at 322.58 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73a54201-8b12-4f29-890d-dba4d159ff22")
-	)
-	(junction
-		(at 204.47 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76715540-7870-44c6-8a8d-a7d693e3eccb")
-	)
-	(junction
-		(at 287.02 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8efcc789-c777-46ff-ad85-2f975410c67f")
@@ -1114,26 +1216,36 @@
 		(uuid "bc8d76d5-1d9b-4fe1-bd06-05ed4e40adbb")
 	)
 	(junction
-		(at 171.45 111.76)
+		(at 207.01 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bea18123-d46f-404c-8f6e-448622d1d472")
+		(uuid "c2a9fbe8-b461-48e4-a51f-d36802d5c8e6")
 	)
 	(junction
-		(at 156.21 111.76)
+		(at 170.18 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcf67283-fb51-4809-bb6c-b85fa035d1a8")
 	)
 	(wire
 		(pts
-			(xy 204.47 111.76) (xy 204.47 114.3)
+			(xy 204.47 110.49) (xy 204.47 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0772e6f8-6e88-4d42-914a-382883d92b25")
+	)
+	(wire
+		(pts
+			(xy 325.12 107.95) (xy 325.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0899d7ef-9eab-4b89-9c72-41f49dcc4b73")
 	)
 	(wire
 		(pts
@@ -1157,23 +1269,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 111.76) (xy 186.69 127)
+			(xy 186.69 121.92) (xy 186.69 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0eef39dc-2e05-45d3-bebb-9b8566e7faa4")
+		(uuid "0d4751fd-af42-43ac-9ce2-fea29c684b15")
 	)
 	(wire
 		(pts
-			(xy 287.02 110.49) (xy 302.26 110.49)
+			(xy 207.01 113.03) (xy 207.01 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dbf64c3-05c6-4b9e-98a1-435351243f15")
+		(uuid "1aca19a9-9ef5-4e9c-a05f-49a613c8dbfa")
 	)
 	(wire
 		(pts
@@ -1197,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 107.95) (xy 287.02 110.49)
+			(xy 302.26 107.95) (xy 302.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 156.21 111.76)
+			(xy 170.18 107.95) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1227,13 +1339,13 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 110.49) (xy 325.12 115.57)
+			(xy 325.12 109.22) (xy 342.9 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30ba6278-a98e-412b-96a0-8d2c3e70dd67")
+		(uuid "33002196-e17a-4959-bcb5-d8fb3930bb1e")
 	)
 	(wire
 		(pts
@@ -1247,13 +1359,23 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 110.49) (xy 287.02 113.03)
+			(xy 302.26 110.49) (xy 302.26 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a9b1455-1a3a-41de-8a44-6f910a5343f2")
+	)
+	(wire
+		(pts
+			(xy 342.9 109.22) (xy 342.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c887f9e-6dec-4fd8-acbe-59a7694a9087")
 	)
 	(wire
 		(pts
@@ -1267,13 +1389,13 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 110.49) (xy 322.58 110.49)
+			(xy 207.01 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b8aa266-41cd-4573-940b-13f63164b6d3")
+		(uuid "4d3f5d43-a17b-4412-bada-066f1e91e3c0")
 	)
 	(wire
 		(pts
@@ -1287,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 156.21 121.92)
+			(xy 170.18 118.11) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1297,27 +1419,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 186.69 111.76)
+			(xy 217.17 115.57) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "660516cc-e796-4197-89ba-44499fb2201f")
+		(uuid "57fd9403-7b56-4cef-9fb7-efd149bda5cb")
 	)
 	(wire
 		(pts
-			(xy 302.26 118.11) (xy 302.26 120.65)
+			(xy 342.9 116.84) (xy 342.9 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "686bc0ab-08b2-4c81-87ab-8961487de295")
+		(uuid "652cfb83-2772-407b-b714-db2d5eab2ca3")
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 207.01 111.76)
+			(xy 207.01 110.49) (xy 207.01 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1327,13 +1449,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 119.38) (xy 171.45 121.92)
+			(xy 325.12 109.22) (xy 325.12 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8373f699-4f84-40f1-a244-30e09193e6e5")
+		(uuid "769bd017-db18-450a-a351-a4a8f1075d6f")
 	)
 	(wire
 		(pts
@@ -1347,7 +1469,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 156.21 111.76)
+			(xy 217.17 120.65) (xy 217.17 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddd3d3a-23c5-4bcd-8cc6-fd2551d39891")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1364,16 +1496,6 @@
 			(type default)
 		)
 		(uuid "961c1d9b-0f3e-4aa9-9f78-772580a7011a")
-	)
-	(wire
-		(pts
-			(xy 171.45 114.3) (xy 171.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b0e4f7f-e1c9-4586-b8b1-88d754aff936")
 	)
 	(wire
 		(pts
@@ -1427,6 +1549,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 110.49) (xy 322.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbcc5c65-fa8f-41b0-a8ed-c57c27457c41")
+	)
+	(wire
+		(pts
 			(xy 204.47 154.94) (xy 204.47 157.48)
 		)
 		(stroke
@@ -1447,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 171.45 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdcfad2-80e2-423c-89df-6a5084efcb74")
-	)
-	(wire
-		(pts
 			(xy 204.47 157.48) (xy 207.01 157.48)
 		)
 		(stroke
@@ -1467,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 118.11) (xy 287.02 120.65)
+			(xy 302.26 118.11) (xy 302.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 111.76) (xy 204.47 111.76)
+			(xy 170.18 110.49) (xy 204.47 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1544,36 +1666,6 @@
 			(type default)
 		)
 		(uuid "ec6ac127-9910-4613-b33f-2ac3107264e9")
-	)
-	(wire
-		(pts
-			(xy 302.26 110.49) (xy 302.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed2ec53a-0c14-4748-860f-6df4953242d1")
-	)
-	(wire
-		(pts
-			(xy 204.47 111.76) (xy 207.01 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f334d48b-77ec-455e-b4c6-d74e0d9b857b")
-	)
-	(wire
-		(pts
-			(xy 322.58 110.49) (xy 325.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5aeadc9-9d33-43bc-9d8c-c7f5878ab0d3")
 	)
 	(text "SD0->GND for default I2C address."
 		(exclude_from_sim no)
@@ -1671,74 +1763,8 @@
 		(uuid "e7e375b3-4800-4352-b12e-b2ebdd1e6a7b")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c7d3039-1f12-414a-aacc-ba3742188faa")
-		(property "Reference" "#PWR022"
-			(at 171.45 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d9a6231-d8f0-4a1f-86ef-25504093665f")
-		)
-		(instances
-			(project "armband"
-				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
-		(at 156.21 109.22 0)
+		(at 170.18 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1747,7 +1773,7 @@
 		(fields_autoplaced yes)
 		(uuid "2026ac3f-457c-47d6-aba4-95ff703df9d4")
 		(property "Reference" "#PWR019"
-			(at 156.21 113.03 0)
+			(at 170.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1782,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 156.21 105.41 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 109.22 0)
+			(at 170.18 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 109.22 0)
+			(at 170.18 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 109.22 0)
+			(at 170.18 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1939,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 287.02 107.95 0)
+		(at 302.26 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1923,7 +1949,7 @@
 		(fields_autoplaced yes)
 		(uuid "29381abc-d919-4b66-b43f-cdd863c8d21f")
 		(property "Reference" "#PWR091"
-			(at 287.02 111.76 0)
+			(at 302.26 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1958,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 287.02 104.14 0)
+			(at 302.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 107.95 0)
+			(at 302.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +1975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 107.95 0)
+			(at 302.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 107.95 0)
+			(at 302.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,94 +1999,6 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 171.45 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29b5a1a7-0243-4466-9dbf-6e837d1b4fbf")
-		(property "Reference" "C8"
-			(at 173.99 116.2113 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n 16V"
-			(at 173.99 118.7513 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1005_Y5V_SMD-3316374.pdf"
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "80-C0402C104M4V "
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "sourced" "y"
-			(at 171.45 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1ff6736-0b07-4b45-8773-7542a7c66527")
-		)
-		(pin "2"
-			(uuid "f1f12dbb-7fd9-4bd6-bcfb-a9187fa3b4d6")
-		)
-		(instances
-			(project "armband"
-				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2244,6 +2182,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 217.17 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf6224f-2486-444c-b7a0-942c08386aa8")
+		(property "Reference" "#PWR022"
+			(at 217.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6807fb1-1826-4168-9829-a3ea5f8530aa")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 340.36 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2302,6 +2306,71 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55a215b1-301a-42a3-8abb-1139c59daddf")
+		(property "Reference" "#PWR092"
+			(at 342.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9cb9d42-0d87-4958-908d-159c488db1c9")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -2368,6 +2437,72 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 207.01 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "615f1b46-c770-4971-92ff-b1a5eecb9f08")
+		(property "Reference" "#PWR0100"
+			(at 207.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 207.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 207.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d90eba31-30c5-44b1-ba4d-6b78e73159e3")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2448,8 +2583,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75211dd2-00a3-44d4-918f-a3b687a69037")
-		(property "Reference" "C41"
+		(uuid "78d32c0a-5b7a-4960-9272-25c8a020b488")
+		(property "Reference" "C40"
 			(at 304.8 114.9413 0)
 			(effects
 				(font
@@ -2505,94 +2640,6 @@
 		)
 		(property "sourced" "y"
 			(at 302.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "364a2f7f-690d-46af-b424-a0dcfbfae716")
-		)
-		(pin "2"
-			(uuid "a99b3c96-6b14-4da0-b9fa-c3a33f19fd05")
-		)
-		(instances
-			(project "armband"
-				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
-					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 287.02 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78d32c0a-5b7a-4960-9272-25c8a020b488")
-		(property "Reference" "C40"
-			(at 289.56 114.9413 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n 16V"
-			(at 289.56 117.4813 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 287.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1005_Y5V_SMD-3316374.pdf"
-			(at 287.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "80-C0402C104M4V "
-			(at 287.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "sourced" "y"
-			(at 287.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 287.02 120.65 0)
+		(at 302.26 120.65 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2715,7 +2762,7 @@
 		(dnp no)
 		(uuid "7ca91d82-6795-46f4-8a6b-feff1200f2b9")
 		(property "Reference" "#PWR089"
-			(at 287.02 127 0)
+			(at 302.26 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 287.02 124.46 0)
+			(at 302.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 120.65 0)
+			(at 302.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 120.65 0)
+			(at 302.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2797,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 120.65 0)
+			(at 302.26 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2819,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 121.92 0)
+		(at 170.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2781,7 +2828,7 @@
 		(fields_autoplaced yes)
 		(uuid "83f73484-cddd-4908-a4bb-f72d1601942a")
 		(property "Reference" "#PWR021"
-			(at 156.21 128.27 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 127 0)
+			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 121.92 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 121.92 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 121.92 0)
+			(at 170.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 156.21 116.84 0)
+		(at 170.18 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2847,7 +2894,7 @@
 		(dnp no)
 		(uuid "84b0be3c-0c6b-4e03-a70b-892335112807")
 		(property "Reference" "C7"
-			(at 158.75 116.2113 0)
+			(at 172.72 114.9413 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2903,7 @@
 			)
 		)
 		(property "Value" "100n 16V"
-			(at 158.75 118.7513 0)
+			(at 172.72 117.4813 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2912,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 116.84 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1005_Y5V_SMD-3316374.pdf"
-			(at 156.21 116.84 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 116.84 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2939,7 @@
 			)
 		)
 		(property "MFN" "80-C0402C104M4V "
-			(at 156.21 116.84 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2948,7 @@
 			)
 		)
 		(property "sourced" "y"
-			(at 156.21 116.84 0)
+			(at 170.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,6 +2966,159 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ad52e60-57ec-4b46-b502-45f0a144176d")
+		(property "Reference" "C8"
+			(at 219.71 117.4813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n 16V"
+			(at 219.71 120.0213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1005_Y5V_SMD-3316374.pdf"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "80-C0402C104M4V "
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourced" "y"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e99a71bd-3d56-48c4-94c0-dee19c0864e3")
+		)
+		(pin "2"
+			(uuid "83ff4ccf-1121-4726-80c8-9eed3e780836")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ddb0d3e-f777-4896-9719-678de51579f9")
+		(property "Reference" "#PWR0101"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.738 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d5bcfd8-e510-4dc2-bed1-e600ad853f09")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3012,16 +3212,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 302.26 120.65 0)
+		(lib_id "power:+3V3")
+		(at 325.12 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "acd2aa54-801d-4831-abdd-feea88fbc594")
-		(property "Reference" "#PWR092"
-			(at 302.26 127 0)
+		(fields_autoplaced yes)
+		(uuid "b0787102-5441-4bfe-92c7-8beff44f4406")
+		(property "Reference" "#PWR099"
+			(at 325.12 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,8 +3230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 302.26 124.46 0)
+		(property "Value" "+3V3"
+			(at 325.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3038,7 +3239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 120.65 0)
+			(at 325.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 120.65 0)
+			(at 325.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,8 +3256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 302.26 120.65 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 325.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,12 +3266,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cb28939-ce8f-4bdb-9fbc-13d68957f4fb")
+			(uuid "8e794f51-e7ef-4d66-976a-e38c7e10c8cc")
 		)
 		(instances
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
-					(reference "#PWR092")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3137,6 +3338,94 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 342.9 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2cb10bc-b8f4-43cb-82dd-02d55a4f939b")
+		(property "Reference" "C41"
+			(at 345.44 113.6713 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n 16V"
+			(at 345.44 116.2113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1005_Y5V_SMD-3316374.pdf"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "80-C0402C104M4V "
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourced" "y"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36a58132-e09a-4b9c-8183-cebe81879af3")
+		)
+		(pin "2"
+			(uuid "85da10bb-7a9b-4424-a4be-435751920f36")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14/2935dd4b-68c9-428b-bdab-ba656d5b03fa"
+					(reference "C41")
 					(unit 1)
 				)
 			)
