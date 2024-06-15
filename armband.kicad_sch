@@ -4607,17 +4607,6 @@
 		)
 		(uuid "269726a9-6eb8-4154-969c-c426d4921714")
 	)
-	(text "Larger Buttons"
-		(exclude_from_sim no)
-		(at 54.102 55.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 21 1)
-			)
-		)
-		(uuid "3fe95cae-fc29-4a9c-a7c0-8fd1bcd4223a")
-	)
 	(text "I²C Device List\n\n| Name          | Addr | Alt  |\n|---------------|------|------|\n|Ambient Light  | 0x10 |   -  |\n|BMM350         | 0x14 | 0x15 |\n|Touch          | 0x24 |      |\n|Battery Charge | 0x3F |      |  \n|Gauge          | 0x55 |      |  \n|Heart Rate     | 0x57 |      |\n|6dof           | 0x68 | 0x69 |\n|Magnetic Sens. | 0x6A |      |\n|BLE + NFC      | prog.       |"
 		(exclude_from_sim no)
 		(at 253.746 279.4 0)
@@ -7181,7 +7170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.73 40.64 0)
 			(effects
 				(font
@@ -7190,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/315/AOA0000C301-1488782.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/414/TTRB_S_A0012915158_1-2565570.pdf"
 			(at 252.73 40.64 0)
 			(effects
 				(font
@@ -7208,7 +7197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "667-ERJ-1GNJ103C "
+		(property "MFN" " 756-WCR0603-10KFA "
 			(at 252.73 40.64 0)
 			(effects
 				(font
@@ -7677,92 +7666,6 @@
 			(project "armband"
 				(path "/017c50c6-333c-4d31-ad5a-278994a09b14"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 73.66 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7d2172-d293-4bf4-9e1f-dd6620f90fb8")
-		(property "Reference" "SW2"
-			(at 73.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVP-BB2A9B000"
-			(at 73.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ARMband:EVPBB2A9B000"
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/315/ATK0000C362-1283947.pdf"
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "667-EVP-BB2A9B000 "
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "sourced" "y"
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78396ecd-3689-4b3e-ae79-b5378a98f837")
-		)
-		(pin "2"
-			(uuid "0319ebed-7160-4d00-b1ae-17bcfef5684e")
-		)
-		(instances
-			(project "armband"
-				(path "/017c50c6-333c-4d31-ad5a-278994a09b14"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 260.35 40.64 0)
 			(effects
 				(font
@@ -8740,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/315/AOA0000C301-1488782.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/414/TTRB_S_A0012915158_1-2565570.pdf"
 			(at 260.35 40.64 0)
 			(effects
 				(font
@@ -8758,7 +8661,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "667-ERJ-1GNJ103C "
+		(property "MFN" " 756-WCR0603-10KFA "
 			(at 260.35 40.64 0)
 			(effects
 				(font
@@ -9447,6 +9350,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 73.66 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6e84cf5-45e1-48c1-8c90-5fa9584dbd5b")
+		(property "Reference" "SW2"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RKB2"
+			(at 73.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ARMband:RKB2"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/ck_rk_datasheet-3051019.pdf"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" " 611-RKB2SJM250SMTRLF "
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "sourced" "y"
+			(at 73.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b928582-9e6f-4feb-ad39-bbfd60ae0df5")
+		)
+		(pin "2"
+			(uuid "748ff1ba-0478-4b9d-ac98-4c4d79e74d54")
+		)
+		(instances
+			(project "armband"
+				(path "/017c50c6-333c-4d31-ad5a-278994a09b14"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 81.28 54.61 0)
@@ -9595,7 +9583,7 @@
 				)
 			)
 		)
-		(property "Value" "EVP-BB2A9B000"
+		(property "Value" "RKB2"
 			(at 36.83 39.37 0)
 			(effects
 				(font
@@ -9603,7 +9591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ARMband:EVPBB2A9B000"
+		(property "Footprint" "ARMband:RKB2"
 			(at 36.83 41.91 0)
 			(effects
 				(font
@@ -9612,7 +9600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/315/ATK0000C362-1283947.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/240/ck_rk_datasheet-3051019.pdf"
 			(at 36.83 41.91 0)
 			(effects
 				(font
@@ -9630,7 +9618,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "667-EVP-BB2A9B000 "
+		(property "MFN" " 611-RKB2SJM250SMTRLF "
 			(at 36.83 41.91 0)
 			(effects
 				(font
